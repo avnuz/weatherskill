@@ -22,9 +22,5 @@
   "activities": [
     "message",
     "event"
-  ],
-  "icons": {
-    "color": "",
-    "outline": ""
-  }
+  ]
 }
