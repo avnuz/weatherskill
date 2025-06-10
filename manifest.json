@@ -15,20 +15,15 @@
     {
       "name": "default",
       "protocol": "BotFrameworkV4",
-      "endpointUrl": " https://6ece-103-157-239-71.ngrok-free.app/api/messages",
+      "endpointUrl": "https://6ece-103-157-239-71.ngrok-free.app/api/messages",
       "msAppId": "9ba36700-735e-4146-bc51-3df976379a3c"
     }
   ],
   "activities": [
     {
-      "id": "weatherEvent",
-      "description": "Get weather for a city",
-      "type": "event"
-    },
-    {
-      "id": "defaultMessage",
-      "description": "Handles messages",
-      "type": "message"
+      "type": "message",
+      "id": "message",
+      "description": "Handles messages"
     }
   ],
   "authenticationConnections": [],
