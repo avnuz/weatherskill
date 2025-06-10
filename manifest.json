@@ -21,9 +21,9 @@
   ],
   "activities": [
     {
-      "type": "message",
       "id": "message",
-      "description": "Handles messages"
+      "type": "message",
+      "description": "Handles user messages"
     }
   ],
   "authenticationConnections": [],
