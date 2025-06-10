@@ -1,0 +1,28 @@
+{
+  "manifestVersion": "1.1",
+  "version": "1.0.0",
+  "id": "9ba36700-735e-4146-bc51-3df976379a3c",
+  "name": {
+    "short": "Weather Skill",
+    "full": "Weather Skill Bot"
+  },
+  "publisherName": "Avani",
+  "description": {
+    "short": "Provides weather information",
+    "full": "A skill bot that gives weather details for any city."
+  },
+  "endpoints": [
+    {
+      "endpoint": "https://b119-103-157-239-71.ngrok-free.app/api/messages",
+      "protocol": "BotFrameworkV4"
+    }
+  ],
+  "activities": [
+    "message",
+    "event"
+  ],
+  "icons": {
+    "color": "color-icon.png",
+    "outline": "outline-icon.png"
+  }
+}
