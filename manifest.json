@@ -1,29 +1,33 @@
 {
   "manifestVersion": "1.1",
   "version": "1.0.0",
-  "id": "9ba36700-735e-4146-bc51-3df976379a3c",
+  "id": "f8d36a60-6178-4262-84de-c54ad2a9330d",
   "name": {
-    "short": "Echo Skill",
-    "full": "Echo Skill bot"
+    "short": "Weather Skill",
+    "full": "Weather Skill Bot"
   },
-  "publisherName": "Microsoft",
+  "publisherName": "Avani",
   "description": {
-    "short": "Echoes back what you say",
-    "full": "This is a sample echo skill that replies with the same message"
+    "short": "Provides weather information",
+    "full": "A skill bot that gives weather details for any city."
   },
   "endpoints": [
     {
       "name": "default",
       "protocol": "BotFrameworkV4",
-      "endpointUrl": "  https://b119-103-157-239-71.ngrok-free.app/api/messages",
+      "endpointUrl": "https://b119-103-157-239-71.ngrok-free.app/api/messages",
       "msAppId": "9ba36700-735e-4146-bc51-3df976379a3c"
     }
   ],
   "activities": [
     {
+      "id": "weatherEvent",
+      "description": "Get weather for a city",
       "type": "event"
     },
     {
+      "id": "defaultMessage",
+      "description": "Handles messages",
       "type": "message"
     }
   ],
