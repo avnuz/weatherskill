@@ -1,7 +1,7 @@
 {
   "manifestVersion": "1.1",
   "version": "1.0.0",
-  "id": "f8d36a60-6178-4262-84de-c54ad2a9330d",
+  "id": "980d70c9-2955-43d7-8652-85d0de7226df",
   "name": {
     "short": "Weather Skill",
     "full": "Weather Skill Bot"
@@ -15,8 +15,9 @@
     {
       "name": "default",
       "protocol": "BotFrameworkV4",
+      "description": "Default endpoint",
       "endpointUrl": "https://6ece-103-157-239-71.ngrok-free.app/api/messages",
-      "msAppId": "9ba36700-735e-4146-bc51-3df976379a3c"
+      "msAppId": "980d70c9-2955-43d7-8652-85d0de7226df"
     }
   ],
   "activities": [
