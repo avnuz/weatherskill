@@ -1,33 +1,30 @@
 {
-  "$schema": "https://schemas.botframework.com/schemas/skills/skill-manifest-2.0.0.json",
-  "$id": "WeatherSkillBot",
-  "name": "Weather  Skill bot",
-  "version": "1.0",
-  "description": "This is a sample echo skillllll",
-  "publisherName": "Microsoft",
-  "privacyUrl": "https://echoskillbot.contoso.com/privacy.html",
-  "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
-  "license": "",
-  "iconUrl": "https://echoskillbot.contoso.com/icon.png",
-  "tags": [
-    "sample",
-    "echo"
-  ],
+  "manifestVersion": "1.1",
+  "version": "1.0.0",
+  "id": "f8d36a60-6178-4262-84de-c54ad2a9330d",
+  "name": {
+    "short": "Weather Skill",
+    "full": "Weather Skill Bot"
+  },
+  "publisherName": "Avani",
+  "description": {
+    "short": "Provides weather information",
+    "full": "A skill bot that gives weather details for any city."
+  },
   "endpoints": [
     {
       "name": "default",
-      "protocol": "BotFrameworkV3",
-      "description": "Default endpoint for the skill",
+      "protocol": "BotFrameworkV4",
       "endpointUrl": "https://b119-103-157-239-71.ngrok-free.app/api/messages",
       "msAppId": "9ba36700-735e-4146-bc51-3df976379a3c"
     }
   ],
-  "activities": {
-    "getTime": {
-      "type": "event",
-      "description": "Gets the current time",
-      "name": "getTime",
-      "value": {test}
-    }
+  "activities": [
+    "message",
+    "event"
+  ],
+  "icons": {
+    "color": "color-icon.png",
+    "outline": "outline-icon.png"
   }
 }
