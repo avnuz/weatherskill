@@ -24,7 +24,7 @@
     "event"
   ],
   "icons": {
-    "color": "https://raw.githubusercontent.com/avnuz/weatherskill/main/color-icon.png",
-    "outline": "https://raw.githubusercontent.com/avnuz/weatherskill/main/outline-icon.png"
+    "color": "",
+    "outline": ""
   }
 }
